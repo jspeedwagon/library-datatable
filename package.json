@@ -1,0 +1,19 @@
+{
+  "name": "library-datatable",
+  "version": "1.0.0",
+  "description": "CSS for datat tables.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jspeedwagon/library_datatable.git"
+  },
+  "author": "jfcarocota",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jspeedwagon/library_datatable/issues"
+  },
+  "homepage": "https://github.com/jspeedwagon/library_datatable#readme"
+}
