@@ -1,0 +1,101 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "datatables.net-se",
+        "scope": null,
+        "escapedName": "datatables.net-se",
+        "name": "datatables.net-se",
+        "rawSpec": "",
+        "spec": "latest",
+        "type": "tag"
+      },
+      "C:\\jeff\\itson\\completo\\workforce-web"
+    ]
+  ],
+  "_from": "datatables.net-se@latest",
+  "_id": "datatables.net-se@1.10.19",
+  "_inCache": true,
+  "_location": "/datatables.net-se",
+  "_nodeVersion": "8.1.2",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/datatables.net-se_1.10.19_1529683457264_0.5874070092795864"
+  },
+  "_npmUser": {
+    "name": "datatables",
+    "email": "npm@datatables.net"
+  },
+  "_npmVersion": "5.0.3",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "datatables.net-se",
+    "scope": null,
+    "escapedName": "datatables.net-se",
+    "name": "datatables.net-se",
+    "rawSpec": "",
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "https://registry.npmjs.org/datatables.net-se/-/datatables.net-se-1.10.19.tgz",
+  "_shasum": "3a451a0a7e2734204c88ce9471216d7a4d9e343e",
+  "_shrinkwrap": null,
+  "_spec": "datatables.net-se",
+  "_where": "C:\\jeff\\itson\\completo\\workforce-web",
+  "author": {
+    "name": "SpryMedia Ltd",
+    "url": "http://datatables.net"
+  },
+  "bugs": {
+    "url": "https://datatables.net/forums"
+  },
+  "dependencies": {
+    "datatables.net": "1.10.19",
+    "jquery": ">=1.7"
+  },
+  "description": "DataTables for jQuery with styling for [Semantic UI](http://semantic-ui.com/)",
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "integrity": "sha512-62OaBUW2ZM4i5mOMOc8WQ+H9l93YKAdpQoUVPzlvvNNhVDmSrS8eL2cxUKxJAJE+SxIRlC9XTh9hVga9VDWaJw==",
+    "shasum": "3a451a0a7e2734204c88ce9471216d7a4d9e343e",
+    "tarball": "https://registry.npmjs.org/datatables.net-se/-/datatables.net-se-1.10.19.tgz",
+    "fileCount": 6,
+    "unpackedSize": 16469,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJbLR4BCRA9TVsSAnZWagAAjoUP/0tlYqwulOBNJLITNQux\nOStT+KpPEbFWHs5QiJaYjz71+ASZCIvAo0s0+p/7Xomcf9GvEbiWckOP2qg1\nl+bA6CNpecoR/pmGb7OMlwi+TGxIvRVMVld2NQneYc7kUX1pOGonoEzrDium\nHc+jOpXjO4aYyG6FSlHGZSQE9fQi2B7nKvxySufRDd7E7gA+dbeXYMl6uxq7\nliJEbhi6cBXiRzNDEHXefVJSQ/eYtEC+l32xcXOd2StafxrUiZ2d5G/byGkT\nOxvBrURMnCXvei9NedzPQE3xh23a21DR6E7C85b76ZzePX6n6mlIBxAmqKOj\nD0KMF7AsXMSGN3FJbNGE9d6j0KQvftt+KH4BV3mabETwPm6z89B88QRZ+cNL\nK89jd6HJH9PLrp8JxQKP7f3v+M+oaxXrrbb7XBoB8N9Xb84BYV1kUNmkhqFN\nYC1ypd5bX7wBbwgo/eQplYJSKeILwJdpap+RntSciozM3R8EXILYr+zt2EZw\nx+mhYUH/pGcXVw7HYbHbUAAkWnXU4jvVfAnUUW+TiKuXae5cVAAweq1cPy2Z\no/rV/H/piOE7aqrPpdpJsCcuLAXx2tVNQ4IfycYb8N/qFuVV7o2UX9EHAiiP\n9avHKIpXwTIPboxODXouxrgZlR0pjX2MRCN1Kgq59cRQLkZCuSjEYc2uexm0\nh4u0\r\n=9oXZ\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "files": [
+    "css/**/*.css",
+    "js/**/*.js"
+  ],
+  "gitHead": "90b46794540066dde5014f9efecadf353f8cc5c5",
+  "homepage": "https://datatables.net",
+  "keywords": [
+    "filter",
+    "sort",
+    "DataTables",
+    "jQuery",
+    "table",
+    "Semantic UI"
+  ],
+  "license": "MIT",
+  "main": "js/dataTables.semanticui.js",
+  "maintainers": [
+    {
+      "name": "datatables",
+      "email": "npm@datatables.net"
+    }
+  ],
+  "name": "datatables.net-se",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DataTables/Dist-DataTables-SemanticUI.git"
+  },
+  "style": "css/dataTables.semanticui.css",
+  "version": "1.10.19"
+}

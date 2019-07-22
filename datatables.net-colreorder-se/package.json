@@ -1,0 +1,97 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "datatables.net-colreorder-se",
+        "scope": null,
+        "escapedName": "datatables.net-colreorder-se",
+        "name": "datatables.net-colreorder-se",
+        "rawSpec": "",
+        "spec": "latest",
+        "type": "tag"
+      },
+      "C:\\jeff\\itson\\completo\\workforce-web"
+    ]
+  ],
+  "_from": "datatables.net-colreorder-se@latest",
+  "_id": "datatables.net-colreorder-se@1.5.1",
+  "_inCache": true,
+  "_location": "/datatables.net-colreorder-se",
+  "_nodeVersion": "8.1.2",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/datatables.net-colreorder-se_1.5.1_1529683130689_0.07396601064704589"
+  },
+  "_npmUser": {
+    "name": "datatables",
+    "email": "npm@datatables.net"
+  },
+  "_npmVersion": "5.0.3",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "datatables.net-colreorder-se",
+    "scope": null,
+    "escapedName": "datatables.net-colreorder-se",
+    "name": "datatables.net-colreorder-se",
+    "rawSpec": "",
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "https://registry.npmjs.org/datatables.net-colreorder-se/-/datatables.net-colreorder-se-1.5.1.tgz",
+  "_shasum": "e7588c69c381ea128ddfab48290d59ad26573e11",
+  "_shrinkwrap": null,
+  "_spec": "datatables.net-colreorder-se",
+  "_where": "C:\\jeff\\itson\\completo\\workforce-web",
+  "author": {
+    "name": "SpryMedia Ltd",
+    "url": "http://datatables.net"
+  },
+  "bugs": {
+    "url": "https://datatables.net/forums"
+  },
+  "dependencies": {
+    "datatables.net-colreorder": "1.5.1",
+    "datatables.net-se": "^1.10.15",
+    "jquery": ">=1.7"
+  },
+  "description": "ColReorder for DataTables with styling for [Semantic UI](http://semantic-ui.com/)",
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "integrity": "sha512-hgWywaXWHFqhaHUWh/oshcuY4j2DH2MQqhACCjHBwVMgLLjjJaKNKNHYhW7gesLbVQcy4XsZWNAPYrfIz+AVjQ==",
+    "shasum": "e7588c69c381ea128ddfab48290d59ad26573e11",
+    "tarball": "https://registry.npmjs.org/datatables.net-colreorder-se/-/datatables.net-colreorder-se-1.5.1.tgz",
+    "fileCount": 6,
+    "unpackedSize": 4694,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJbLRy6CRA9TVsSAnZWagAAosYP/2xj4LJjQaWikIvRVED7\nMM+faJCEyfYuHpbicrUFQBPyUlF8GNvZeMhXPc3UmK3hnofNrYihYzgdrhij\naIeQQMDs5Gnkl6GuE+qUBIVG9vr952Q/CSZ+tFtDbaozzrp7ya9TgFFpMS3v\nlOvip7TdZ0jctLnCEyqDu7Ozfhs1JBgLjdlBeBg3cIrI6RQdbPANs8GOqFpm\nSbuw5EbcRDmSiJ0FAe6oke5kObeHjh45Nmb1fHMHwQm1PXtRHVqGTgh5LTzD\nDsiuwtMHjcQLcPk+EMWqBIkmV/Obv0LiB3KInM0MTHcKmIAqq/Ci6yAarqFK\nY558skfLLVS/YGNn3nr1wiKok7VaraBaLuCs07x24p/QflmbwPqweNXne6Y8\n+L0LH0sxYvF/6jb+Ppz3elz0qvYUQ7/cNpvEZNHeLp+o3+jXnQ0shn9lNRfy\n2/+Kk7O14T2pIc+Htkj90SF8nxBFM2k8FlhH25mkNsNEETw8F6Vzih+IMXNU\n7+6LL9MeUZatB4ceOIEmrPCHSns8Gnzsva3bcU11QxbQ593rBZtZFy0nJiTI\nQZRGVJeMCFlzK/3HV77EIUq7q2Ph26PZznpleZrDeED4FRprU00Ldh2Ie6iJ\n0JgTYgAT5U01+8tLDQtHVzDT0SzSoi09Fjb5pWXq38QqznVyI+6YjYVN5oMt\nVf9x\r\n=ziSM\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "files": [
+    "css/**/*.css",
+    "js/**/*.js"
+  ],
+  "gitHead": "745eb4bd53b4fdc330ff857a3d5976c8c5839ee4",
+  "homepage": "https://datatables.net",
+  "keywords": [
+    "reorder",
+    "DataTables",
+    "jQuery",
+    "table",
+    "Semantic UI"
+  ],
+  "license": "MIT",
+  "main": "js/colReorder.semanticui.js",
+  "maintainers": [
+    {
+      "name": "datatables",
+      "email": "npm@datatables.net"
+    }
+  ],
+  "name": "datatables.net-colreorder-se",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "style": "css/colReorder.semanticui.css",
+  "version": "1.5.1"
+}

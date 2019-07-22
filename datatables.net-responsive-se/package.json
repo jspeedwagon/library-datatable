@@ -1,0 +1,97 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "datatables.net-responsive-se",
+        "scope": null,
+        "escapedName": "datatables.net-responsive-se",
+        "name": "datatables.net-responsive-se",
+        "rawSpec": "",
+        "spec": "latest",
+        "type": "tag"
+      },
+      "C:\\jeff\\itson\\completo\\workforce-web"
+    ]
+  ],
+  "_from": "datatables.net-responsive-se@latest",
+  "_id": "datatables.net-responsive-se@2.2.3",
+  "_inCache": true,
+  "_location": "/datatables.net-responsive-se",
+  "_nodeVersion": "8.1.2",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/datatables.net-responsive-se_2.2.3_1529683330447_0.3855562453846755"
+  },
+  "_npmUser": {
+    "name": "datatables",
+    "email": "npm@datatables.net"
+  },
+  "_npmVersion": "5.0.3",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "datatables.net-responsive-se",
+    "scope": null,
+    "escapedName": "datatables.net-responsive-se",
+    "name": "datatables.net-responsive-se",
+    "rawSpec": "",
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "https://registry.npmjs.org/datatables.net-responsive-se/-/datatables.net-responsive-se-2.2.3.tgz",
+  "_shasum": "617ea45565da189f91459ea9d46771f1abb5803f",
+  "_shrinkwrap": null,
+  "_spec": "datatables.net-responsive-se",
+  "_where": "C:\\jeff\\itson\\completo\\workforce-web",
+  "author": {
+    "name": "SpryMedia Ltd",
+    "url": "http://datatables.net"
+  },
+  "bugs": {
+    "url": "https://datatables.net/forums"
+  },
+  "dependencies": {
+    "datatables.net-responsive": "2.2.3",
+    "datatables.net-se": "^1.10.15",
+    "jquery": ">=1.7"
+  },
+  "description": "Responsive for DataTables with styling for [Semantic UI](http://semantic-ui.com/)",
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "integrity": "sha512-ck/ZkgBZA2dDOHakaruErosrSsAbBhEEKlwyyg/IYPyLrWpua+3A0N108uC3I8fnP8gJRc8PP1odsLROZGphmQ==",
+    "shasum": "617ea45565da189f91459ea9d46771f1abb5803f",
+    "tarball": "https://registry.npmjs.org/datatables.net-responsive-se/-/datatables.net-responsive-se-2.2.3.tgz",
+    "fileCount": 6,
+    "unpackedSize": 14679,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJbLR2CCRA9TVsSAnZWagAAKB0P/idAvPKNGZwCRXSwnsGj\nQGsES5yTXNk13YjQTq7HKfSJEncqF52B+gRLYZvbNa5RTSTkBzJBlysMMYB9\nl7Y0RZDzDKmAXzLQDS/CEXaRr7MfB2C8Nb1DuUUPrnGaZGJaFqQjz2k2lQwi\n9+Uz++FCMq+4tGAydsdMeBkSu3tbJ2kgHLUUm/wseqIwCRbRN8H43gJY0HUJ\nY1CAe7K4t08eiyDkjXxTfu2U4FCoTGQzNysmHUY+ThdZxJfx13au5YmfPDYv\nmKvqf7I4wp0ik5pcUIzGfNdjwu1J3nJlZZ9JoEvQpuj8H22cbsWn62fWc2HY\nt6bdWUwFmr+vV2DR5GpgBCfmXwnexmrBWqixEenR63cr+jyUdOVGoAhmH4IS\nadUwEmMsinCYLTyN/D2ygZvD8XJHn0ajLGHJHhzni2JtmKibWijHRWkXGYhh\n+GClts1E6k7/g3MwGaVwlZUDAk6C789yA3gbA7UdGiWtB6j9SteAAXK9dwlw\ntSg2m0Y+I3T0a9/2xk17r96bX5hT/nn9ctOlMqdhaLoS1WkXdfpCXzO1XY0A\nxexajSV712eCQx2QKiEcT2id2P+XpGIpeHoskH00TUk+hsZH9MMLCVEHSP/x\n/5j8FUFYVvrRDxXUSTMwnUzgUfZupSS2yiFnRfDcwFAIUqibITIjlF0sv56q\nw8nJ\r\n=8kUO\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "files": [
+    "css/**/*.css",
+    "js/**/*.js"
+  ],
+  "gitHead": "10e25f73b83de6c2d22d6716745d50c4f3f9e02d",
+  "homepage": "https://datatables.net",
+  "keywords": [
+    "responsive",
+    "DataTables",
+    "jQuery",
+    "table",
+    "Semantic UI"
+  ],
+  "license": "MIT",
+  "main": "js/responsive.semanticui.js",
+  "maintainers": [
+    {
+      "name": "datatables",
+      "email": "npm@datatables.net"
+    }
+  ],
+  "name": "datatables.net-responsive-se",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "style": "css/responsive.semanticui.css",
+  "version": "2.2.3"
+}
