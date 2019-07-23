@@ -53,6 +53,7 @@ table.dataTable.table.nowrap td {
 }
 
 div.dataTables_wrapper div.dataTables_length select {
+  display: none;
   vertical-align: middle;
   min-height: 2.7142em;
 }
