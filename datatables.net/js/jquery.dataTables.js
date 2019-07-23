@@ -4178,8 +4178,9 @@
 		var language = settings.oLanguage;
 		var previousSearch = settings.oPreviousSearch;
 		var features = settings.aanFeatures;
-		var input = '<input type="search" class="'+classes.sFilterInput+'"/>';
-	
+		var input = '<input type="search" class="'+classes.sFilterInput+'" style="float:left"/>';
+		
+		
 		var str = language.sSearch;
 		str = str.match(/_INPUT_/) ?
 			str.replace('_INPUT_', input) :
@@ -4187,10 +4188,13 @@
 	
 		var filter = $('<div/>', {
 				'id': ! features.f ? tableId+'_filter' : null,
-				'class': classes.sFilter
+				'class': classes.sFilter,
+
 			} )
 			.append( $('<label/>' ).append( str ) );
-	
+		
+				
+		
 		var searchFn = function() {
 			/* Update all other filter input elements for the new display */
 			var n = features.f;
@@ -4816,8 +4820,10 @@
 		var select = $('<select/>', {
 			'name':          tableId+'_length',
 			'aria-controls': tableId,
-			'class':         classes.sLengthSelect
-		} );
+			'class':         classes.sLengthSelect,
+			'visible':       false
+		} 
+		);
 	
 		for ( var i=0, ien=lengths.length ; i<ien ; i++ ) {
 			select[0][ i ] = new Option(
@@ -4834,9 +4840,11 @@
 		}
 	
 		div.children().append(
-			settings.oLanguage.sLengthMenu.replace( '_MENU_', select[0].outerHTML )
+			settings.oLanguage.sLengthMenu.replace( '_MENU_', 10 )
+			
 		);
-	
+		//input.style.visibility='hidden';
+		//div.style.visibility='hidden';
 		// Can't use `select` variable as user might provide their own and the
 		// reference is broken by the use of outerHTML
 		$('select', div)
@@ -11482,12 +11490,12 @@
 			 *    $(document).ready( function() {
 			 *      $('#example').dataTable( {
 			 *        "language": {
-			 *          "infoEmpty": "No entrdas que mostrar"
+			 *          "infoEmpty": "No entradas que mostrar"
 			 *        }
 			 *      } );
 			 *    } );
 			 */
-			"sInfoEmpty": "Mostrando 0 a 0 de 0 registros",
+			"sInfoEmpty": "",
 	
 	
 			/**
@@ -11627,7 +11635,7 @@
 			 *      } );
 			 *    } );
 			 */
-			"sLengthMenu": "Mostrar _MENU_ registros",
+			"sLengthMenu": "",
 	
 	
 			/**
@@ -11702,12 +11710,12 @@
 			 *    $(document).ready( function() {
 			 *      $('#example').dataTable( {
 			 *        "language": {
-			 *          "search": "Apply filter _INPUT_ to table"
+			 *          "search": "Apply filter sLengthMenu.style.visibility='hidden'; to table"
 			 *        }
 			 *      } );
 			 *    } );
 			 */
-			"sSearch": "Buscar:",
+			"sSearch": "",
 	
 	
 			/**
@@ -14402,8 +14410,8 @@
 		"sRowEmpty": "dataTables_empty",
 	
 		/* Features */
+		"sFilter": "dataTables_filter float-left",
 		"sWrapper": "dataTables_wrapper",
-		"sFilter": "dataTables_filter",
 		"sInfo": "dataTables_info",
 		"sPaging": "dataTables_paginate paging_", /* Note that the type is postfixed */
 		"sLength": "dataTables_length",
